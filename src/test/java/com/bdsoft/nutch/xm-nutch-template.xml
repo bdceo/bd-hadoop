@@ -1,0 +1,816 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="root.xml"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<root>
+
+	<item id="0">
+		<domain>amazon.cn</domain>
+		<name>亚马逊</name>
+		<code>1011</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserAmazonNew</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.amazon.cn" template</description>
+	</item>
+
+	<item id="1">
+
+		<host>360buy.com;jd.com;ilike.360buy.com</host>
+		<name>京东商城</name>
+		<code>1005</code>
+		<parserImpl>xm99.nutch.plugin.parse.Parser360BuyNew</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+
+		<description>to get "www.jd.com" template
+		</description>
+	</item>
+
+
+	<item id="2">
+
+		<host>book.360buy.com;book.jd.com;ilike.360buy.com;adtpl.360buy.com
+		</host>
+		<name>京东商城</name>
+		<code>1005</code>
+		<parserImpl>xm99.nutch.plugin.parse.Parser360BuyBook
+		</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+
+		<description>to get "www.360buy.com" template
+		</description>
+	</item>
+
+
+	<item id="3">
+
+		<host>mvd.360buy.com;mvd.jd.com</host>
+		<name>京东商城</name>
+		<code>1005</code>
+		<parserImpl>xm99.nutch.plugin.parse.Parser360BuyMvd
+		</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+
+		<description>to get "www.360buy.com" template
+		</description>
+	</item>
+
+
+	<!-- <item id="4"> <domain>zol.com.cn</domain> <name>ZOL中关村在线</name> <code>1040</code> 
+		<parserImpl>xm99.nutch.plugin.parse.ParserZOL</parserImpl> <parserStandartNameImpl>xm99.nutch.plugin.standardProductName.ParseZOLProductName</parserStandartNameImpl> 
+		<mparas>DocumentFragment</mparas> <isUse>1</isUse> <description>to get "detail.zol.com.cn" 
+		template;parserStandartNameImpl is the class to get the standardProductName 
+		</description> </item> -->
+
+	<item id="5">
+		<domain>newegg.com.cn</domain>
+		<name>新蛋中国</name>
+		<code>1007</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserNewEggNew</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.newegg.com.cn" template
+		</description>
+	</item>
+
+
+	<item id="6">
+		<domain>coo8.com</domain>
+		<name>库巴网</name>
+		<code>1003</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserCoo8New</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.coo8.com" template
+		</description>
+	</item>
+
+
+	<item id="7">
+		<domain>efeihu.com</domain>
+		<name>飞虎乐购网</name>
+		<code>1010</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserEfeihuNew</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.efeihu.com" template</description>
+	</item>
+
+
+	<item id="8">
+		<host>www.dangdang.com;book.dangdang.com;list.dangdang.com;union.dangdang.com
+		</host>
+		<name>当当网</name>
+		<code>1008</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserDangDang
+		</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get ".dangdang.com" template
+		</description>
+	</item>
+
+	<item id="9">
+		<host>search.dangdang.com;www.dangdang.com;product.dangdang.com;category.dangdang.com;3c.dangdang.com;movie.dangdang.com;living.dangdang.com;static.dangdang.com;fashion.dangdang.com;food.dangdang.com;baby.dangdang.com;searchb.dangdang.com;music.dangdang.com
+		</host>
+		<name>当当网</name>
+		<code>1008</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserDangDangNew</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get ".dangdang.com" template</description>
+	</item>
+
+	<item id="9">
+		<domain>gome.com.cn</domain>
+		<name>国美电器</name>
+		<code>1002</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserGome
+		</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.gome.com.cn" template
+		</description>
+	</item>
+
+	<item id="10">
+		<domain>51buy.com</domain>
+		<name>易迅网</name>
+		<code>1009</code>
+		<parserImpl>xm99.nutch.plugin.parse.Parser51buyNew</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.51buy.com/" template
+		</description>
+	</item>
+
+	<item id="12">
+		<domain>lusen.com</domain>
+		<name>绿森数码</name>
+		<code>1014</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserLusen</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "http://www.lusen.com" template</description>
+	</item>
+
+
+	<item id="13">
+		<domain>tmall.com</domain>
+		<name>天猫</name>
+		<code>1041</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserTMall_shopper</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "http://www.tmall.com/" template</description>
+	</item>
+
+
+	<item id="14">
+		<domain>yida366.com</domain>
+		<name>易达商城</name>
+		<code>1016</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserYiDa366New</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "http://www.yida366.com/" template</description>
+	</item>
+
+
+	<item id="16">
+		<domain>okhqb.com</domain>
+		<name>华强北在线</name>
+		<code>1004</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserHuaqiangBei</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "http://www.okhqb.com/" template</description>
+	</item>
+
+
+	<item id="17">
+		<domain>lafaso.com;lefeng.com</domain>
+		<name>乐蜂网</name>
+		<code>1030</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParseLeFengNew</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.lafaso.com" template</description>
+	</item>
+
+
+	<item id="18">
+		<domain>jumei.com</domain>
+		<name>聚美优品</name>
+		<code>1031</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParseJuMeiNew</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "mall.jumei.com" template</description>
+	</item>
+
+	<item id="19">
+		<domain>17mh.com</domain>
+		<name>买好网</name>
+		<code>1042</code>
+		<parserImpl>xm99.nutch.plugin.parse.Parser17mh</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "http://www.17mh.com" template</description>
+	</item>
+
+	<item id="20">
+		<domain>ladypk.com</domain>
+		<name>丽人商城</name>
+		<code>1032</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserLadyPK</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "http://www.ladypk.com/" template</description>
+	</item>
+
+	<item id="23">
+		<domain>xiu.com</domain>
+		<name>走秀网</name>
+		<code>1023</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserXiu</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.xiu.com" template</description>
+	</item>
+
+
+	<item id="31">
+		<domain>yintai.com</domain>
+		<name>银泰网</name>
+		<code>1013</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserYintaiNew</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "http://www.yintai.com/" template</description>
+	</item>
+
+	<item id="32">
+		<domain>suning.com</domain>
+		<name>苏宁易购</name>
+		<code>1001</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserSuning</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "http://www.suning.com/" template</description>
+	</item>
+
+	<item id="33">
+		<domain>yihaodian.com;1mall.com</domain>
+		<name>一号店</name>
+		<code>1012</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserYihaodianNew</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "http://www.yihaodian.com/2/" template
+		</description>
+	</item>
+
+	<item id="44">
+		<domain>mamabb.com</domain>
+		<name>妈妈好孩子网</name>
+		<code>1044</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserMamabb</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "http://www.mamabb.com/" template</description>
+	</item>
+
+
+	<item id="46">
+		<domain>haiziwang.com</domain>
+		<name>孩子王</name>
+		<code>1046</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserHaiziwang</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "http://www.haiziwang.com/" template</description>
+	</item>
+
+	<item id="48">
+		<domain>xbd61.com</domain>
+		<name>小布叮</name>
+		<code>1048</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserXbd61</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "http://www.xbd61.com/" template</description>
+	</item>
+
+
+	<item id="49">
+		<domain>baby.com.cn</domain>
+		<name>爱婴岛</name>
+		<code>1049</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserBaby</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "http://www.baby.com.cn/" template</description>
+	</item>
+
+	<item id="50">
+		<domain>mmbbgo.com</domain>
+		<name>妈宝购网</name>
+		<code>1050</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserMmbbgo</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "http://www.mmbbgo.com/" template</description>
+	</item>
+
+
+	<item id="51">
+		<domain>boshiwa365.com</domain>
+		<name>博士蛙</name>
+		<code>1051</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserBoshiwa365</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "http://www.boshiwa365.com/" template
+		</description>
+	</item>
+
+
+	<item id="52">
+		<domain>tonqu.com</domain>
+		<name>同趣网</name>
+		<code>1052</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserTonqu</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "http://www.tonqu.com/" template</description>
+	</item>
+
+	<item id="53">
+		<domain>lequ360.com</domain>
+		<name>乐趣网</name>
+		<code>1053</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserLequ360</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "http://www.lequ360.com/" template</description>
+	</item>
+
+	<item id="54">
+		<domain>qinqinbaby.com</domain>
+		<name>亲亲宝贝商城</name>
+		<code>1054</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserQinqinBaby</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "http://www.qinqinbaby.com/" template
+		</description>
+	</item>
+
+	<item id="55">
+		<domain>mianhuabaobao.com</domain>
+		<name>棉花宝宝</name>
+		<code>1055</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserMianhuaBaobao</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "http://www.mianhuabaobao.com/" template
+		</description>
+	</item>
+
+	<item id="56">
+		<domain>lvhezi.com</domain>
+		<name>绿盒子</name>
+		<code>1056</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserLvhezi</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "http://item.lvhezi.com/" template</description>
+	</item>
+
+	<item id="58">
+		<domain>taowandao.com</domain>
+		<name>淘玩岛</name>
+		<code>1058</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserTaowandao</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "http://www.taowandao.com/" template</description>
+	</item>
+
+	<item id="59">
+		<domain>m6go.com</domain>
+		<name>麦乐购</name>
+		<code>1059</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserM6go</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "http://www.m6go.com/" template</description>
+	</item>
+
+	<item id="60">
+		<domain>muyingzhijia.com</domain>
+		<name>母婴之家</name>
+		<code>1060</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserMuyingZhiJia</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "http://www.muyingzhijia.com/" template
+		</description>
+	</item>
+
+	<item id="61">
+		<domain>binggo.com</domain>
+		<name>缤购网</name>
+		<code>1061</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserBinggo</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "http://www.binggo.com/" template</description>
+	</item>
+
+
+	<item id="62">
+		<domain>jiapin.com</domain>
+		<name>佳品网</name>
+		<code>1062</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserJiaPin</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.jiapin.com" template</description>
+	</item>
+
+
+	<item id="67">
+		<domain>vjia.com</domain>
+		<name>凡客V加</name>
+		<code>1067</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserVjia</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "http://www.vjia.com/" template </description>
+	</item>
+
+
+	<item id="69">
+		<domain>vancl.com</domain>
+		<name>凡客</name>
+		<code>1069</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserVancl</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.vancl.com" template </description>
+	</item>
+
+	<item id="71">
+		<domain>vipshop.com</domain>
+		<name>唯品会</name>
+		<code>1071</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserVipShopNew</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.vipshop.com" template </description>
+	</item>
+
+
+	<item id="72">
+		<domain>m18.com</domain>
+		<name>麦考林</name>
+		<code>1072</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserM18</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "m18.com" template </description>
+	</item>
+
+	<item id="73">
+		<domain>100yue.com</domain>
+		<name>百悦网</name>
+		<code>1073</code>
+		<parserImpl>xm99.nutch.plugin.parse.Parser100yue</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.100yue.com" template </description>
+	</item>
+
+	<item id="78">
+		<domain>etao.com</domain>
+		<name>易淘</name>
+		<code>1078</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParseEtao</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.etao.com" template </description>
+	</item>
+
+	<item id="81">
+		<domain>lamiu.com</domain>
+		<name>兰缪</name>
+		<code>1063</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserLaMiu</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.LaMiu.com" template</description>
+	</item>
+
+	<item id="82">
+		<domain>letao.com</domain>
+		<name>乐淘</name>
+		<code>1068</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserLetao</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.letao.com" template</description>
+	</item>
+
+	<item id="83">
+		<domain>moonbasa.com;monteamor.com</domain>
+		<name>梦芭莎</name>
+		<code>1070</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserMoonbasa</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.moonbasa.com" template</description>
+	</item>
+
+
+	<item id="84">
+		<domain>masamaso.com;vivian.cn</domain>
+		<name>玛萨玛索</name>
+		<code>1065</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserMasamaso</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.masamaso.com or www.vivian.cn" template
+		</description>
+	</item>
+
+	<item id="85">
+		<domain>banggo.com</domain>
+		<name>邦购</name>
+		<code>1064</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserBanggo</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.banggo.com" template</description>
+	</item>
+
+	<item id="86">
+		<domain>51youpin.com</domain>
+		<name>悠品网</name>
+		<code>1027</code>
+		<parserImpl>xm99.nutch.plugin.parse.Parser51YouPin</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.51youpin.com" template</description>
+	</item>
+
+
+	<item id="87">
+		<domain>dwgou.com</domain>
+		<name>道位购</name>
+		<code>1017</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserDwgou</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.dwgou.com" template</description>
+	</item>
+
+	<item id="88">
+		<domain>ouku.com</domain>
+		<name>欧酷网</name>
+		<code>1018</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserOuku</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.ouku.com" template</description>
+	</item>
+
+	<item id="89">
+		<domain>1wandian.com</domain>
+		<name>壹万店</name>
+		<code>1019</code>
+		<parserImpl>xm99.nutch.plugin.parse.Parser1WanDian</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.1wandian.com" template</description>
+	</item>
+
+	<item id="90">
+		<domain>misslele.com</domain>
+		<name>妙乐乐母婴</name>
+		<code>1057</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserMisslele</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.misslele.com" template</description>
+	</item>
+
+	<item id="91">
+		<domain>315mg.com</domain>
+		<name>迈优格</name>
+		<code>1039</code>
+		<parserImpl>xm99.nutch.plugin.parse.Parser315mg</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.315mg.com" template</description>
+	</item>
+
+	<item id="92">
+		<domain>maidq.com</domain>
+		<name>普家欢电器网</name>
+		<code>1038</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserMaidq</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.maidq.com" template</description>
+	</item>
+
+	<item id="93">
+		<domain>tao3c.com;tao3c.com.cn</domain>
+		<name>高鸿商城</name>
+		<code>1035</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserTao3c</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.tao3c.com" template</description>
+	</item>
+
+	<item id="94">
+		<domain>new7.com</domain>
+		<name>新7天电器网</name>
+		<code>1036</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserNew7</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.new7.com" template</description>
+	</item>
+
+	<item id="95">
+		<domain>xiuwe.com</domain>
+		<name>秀唯网</name>
+		<code>1033</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserXiuwe</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.xiuwe.com" template</description>
+	</item>
+
+	<item id="96">
+		<domain>wl.cn</domain>
+		<name>蔚蓝网</name>
+		<code>1029</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserWl</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.Wl.cn" template</description>
+	</item>
+
+	<item id="97">
+		<domain>paipai.com</domain>
+		<name>QQ商城</name>
+		<code>1028</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserQQshop</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "shop.qq.com" qq商城主要 是拍拍的 template</description>
+	</item>
+
+	<item id="98">
+		<host>searchex.buy.qq.com;item.buy.qq.com</host>
+		<name>QQ网购</name>
+		<code>1079</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserQQbuy</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "buy.qq.com" template</description>
+	</item>
+
+	<item id="99">
+		<domain>xijie.com</domain>
+		<name>西街网</name>
+		<code>1026</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserXijie</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.xijie.com" template</description>
+	</item>
+
+	<item id="100">
+		<domain>shop708090.com</domain>
+		<name>时代万货</name>
+		<code>1025</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserShop708090</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.shop708090.com" template</description>
+	</item>
+
+	<item id="101">
+		<domain>139shop.com</domain>
+		<name>北斗手机网</name>
+		<code>1020</code>
+		<parserImpl>xm99.nutch.plugin.parse.Parser139shop</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.139shop.com" template</description>
+	</item>
+
+	<item id="102">
+		<domain>mbaobao.com</domain>
+		<name>麦包包</name>
+		<code>1080</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserMbaobao</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.mbaobao.com" template</description>
+	</item>
+
+	<item id="103">
+		<domain>hstyle.com</domain>
+		<name>韩都衣舍</name>
+		<code>1081</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserHstyle</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.hstyle.com" template</description>
+	</item>
+
+
+	<item id="104">
+		<domain>nop.cn</domain>
+		<name>NOP时尚</name>
+		<code>1082</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserNop</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.nop.cn" template</description>
+	</item>
+
+	<item id="105">
+		<domain>shishang71.com</domain>
+		<name>时尚起义</name>
+		<code>1083</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserShishang71</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.shishang71.com" template</description>
+	</item>
+
+	<item id="106">
+		<domain>yougou.com</domain>
+		<name>优购网</name>
+		<code>1084</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserYougou</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.yougou.com" template</description>
+	</item>
+
+	<item id="107">
+		<domain>miqi.cn</domain>
+		<name>米奇网</name>
+		<code>1085</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserMiqi</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.miqi.cn" template</description>
+	</item>
+
+	<item id="108">
+		<domain>xzhuang.com</domain>
+		<name>校妆网</name>
+		<code>1086</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserXzhuang</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.xzhuang.com" template</description>
+	</item>
+
+
+	<item id="109">
+		<domain>nala.com.cn</domain>
+		<name>娜拉</name>
+		<code>1087</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserNala</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.nala.com.cn" template</description>
+	</item>
+
+
+	<item id="110">
+		<domain>yplady.com</domain>
+		<name>优品网</name>
+		<code>1081</code>
+		<parserImpl>xm99.nutch.plugin.parse.ParserYplady</parserImpl>
+		<mparas>DocumentFragment</mparas>
+		<isUse>1</isUse>
+		<description>to get "www.yplady.com" template</description>
+	</item>
+</root>
+
